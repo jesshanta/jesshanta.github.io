@@ -13,18 +13,26 @@ body{
 	background-color: #A79C8E;
 }
 
-h1{
-	color: #F8ECC9;
+h1,h2{
 	font-family: boldt; 
 	text-align: center;
-	font-weight: 300;
-	font-size: 3em;
+	font-weight: 100;
+	font-size: 3.5em;
 }
+
+h1{
+	color: #F8ECC9;
+}
+
+h2{
+	color: #F1BBBA;
+}
+
 .heading{
 	position: absolute;
 	top: 25%;
 	width: 500px;
-	right: 25%;
+	left: 50%;
 	margin-left: -250px;
 }
 
