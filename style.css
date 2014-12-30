@@ -28,6 +28,12 @@ h2{
 	color: #F1BBBA;
 }
 
+nav{
+	width: 100%;
+	background-color: #6B5344;
+	height: 50px;
+	text-align: center;
+}
 .heading{
 	position: absolute;
 	top: 25%;
