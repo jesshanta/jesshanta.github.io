@@ -21,7 +21,7 @@ h1,h2{
 }
 
 h1{
-	color: #F8ECC9;
+	color: #F1BBBA;
 }
 
 h2{
@@ -37,7 +37,9 @@ h2{
 }
 
 .name{
-	color: #F1BBBA;
+	color: #F8ECC9;
+	font-size: 3.5em;
+	height: 35px;
 }
 
 .grey{
