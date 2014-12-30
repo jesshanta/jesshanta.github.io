@@ -1,6 +1,11 @@
 @font-face {
 	font-family: regulart;
-	src: 'https://github.com/jesshanta/jesshanta.github.io/blob/master/Titillium-Regular.otf';
+	src: 'Titillium-Regular.otf';
+}
+
+@font-face{
+	font-family: boldt;
+	src: 'Titillium-Bold.otf';
 }
 
 body{
@@ -8,7 +13,7 @@ body{
 }
 
 h1,h2{
-	font-family: regulart; 
+	font-family: boldt; 
 }
 .heading{
 	position: absolute;
