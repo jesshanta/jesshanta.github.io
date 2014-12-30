@@ -1,11 +1,11 @@
 @font-face {
 	font-family: regulart;
-	src: 'Titillium-Regular.otf';
+	src: url(Titillium-Regular.otf);
 }
 
 @font-face{
 	font-family: boldt;
-	src: 'Titillium-Bold.otf';
+	src: url(Titillium-Bold.otf);
 }
 
 body{
