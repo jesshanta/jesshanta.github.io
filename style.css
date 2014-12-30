@@ -1,3 +1,12 @@
+body{
+	font-family: titilumRegular;
+	src: url(Titillium-Regular.otf);
+}
+
+h1,h2{
+	font-family: titilumRegular;
+	src: url(Titillium-Regular.otf);
+}
 .heading{
 	position: absolute;
 	top: 25%;
