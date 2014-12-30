@@ -28,6 +28,18 @@ h2{
 	color: #F1BBBA;
 }
 
+a{
+	text-decoration: none;
+	font-family: regulart;
+	font-weight: 100;
+	color: #F1BBBA;
+	margin-left: 5px;
+}
+
+a:hover{
+	color: #EB9F9F;
+}
+
 #menu {
 	position: fixed;
   	right: 0;
@@ -36,7 +48,6 @@ h2{
   	margin-top: -2.5em;
   	background-color: #6B5344;
   	color: #F8ECC9;
-
 }
 
 nav{
