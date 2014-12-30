@@ -1,9 +1,14 @@
+@font-face {
+	font-family: regulart;
+	src: url(titillium-regular.otf);
+}
+
 body{
-	font-family: 'Source Sans Pro', sans-serif; 
+	font-family: regulart; 
 }
 
 h1,h2{
-	font-family: 'Source Sans Pro', sans-serif; 
+	font-family: regulart; 
 }
 .heading{
 	position: absolute;
