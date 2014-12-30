@@ -35,6 +35,12 @@ nav{
 	text-align: center;
 	color: #F8ECC9;
 }
+
+.container{
+	display: block;
+	width: 60px;
+	background-color: #6B5344;
+}
 .heading{
 	position: absolute;
 	top: 25%;
