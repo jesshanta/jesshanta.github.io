@@ -28,7 +28,7 @@ h1,h2{
 }
 
 h1{
-	color: #FFFFFF;
+	color: #666666;
 }
 
 h2{
@@ -94,6 +94,9 @@ div{
 	width: 500px;
 	left: 50%;
 	margin-left: -250px;
+}
+
+#title h1{
 	color: #666666;
 	font-family: boldt;
 	font-size: 1.5em;
