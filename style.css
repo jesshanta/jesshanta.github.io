@@ -78,12 +78,18 @@ a:hover{
 	border: none;
 }
 
-nav{
-	width: 100%;
-	background-color: #6B5344;
-	height: 50px;
-	text-align: center;
-	color: #F8ECC9;
+nav {
+display: table;
+width: 100%;
+border-collapse: collapse;
+border: none;
+}
+nav ul {
+display: table-row;
+}
+nav li {
+display: table-cell;
+margin: 0;
 }
 
 .container{
