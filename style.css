@@ -61,3 +61,14 @@ div{
 	margin: 0px;
 	background-color: #000000; 
 }
+
+.full ul{
+	height:auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+.full li{
+	display: inline;
+	padding: 20px;
+}
