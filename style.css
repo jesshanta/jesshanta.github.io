@@ -78,18 +78,14 @@ a:hover{
 	border: none;
 }
 
-nav {
-display: table;
-width: 100%;
-border-collapse: collapse;
-border: none;
+html, body{
+	overflow-x: hidden;
 }
-nav ul {
-display: table-row;
-}
-nav li {
-display: table-cell;
-margin: 0;
+
+.full{
+	margin: 0 -9999rem;
+	padding: 0.25rem;
+	background: rgba(0,0,0,0);
 }
 
 .container{
