@@ -11,6 +11,11 @@
 body{
 	font-family: regulart; 
 	background-color: #A79C8E;
+	overflow-x: hidden;
+}
+
+html{
+	overflow-x: hidden;
 }
 
 h1,h2{
@@ -21,11 +26,11 @@ h1,h2{
 }
 
 h1{
-	color: #F1BBBA;
+	color: #FFFFFF;
 }
 
 h2{
-	color: #F1BBBA;
+	color: #FFFFFF;
 }
 
 a{
@@ -40,91 +45,8 @@ a:hover{
 	color: #EB9F9F;
 }
 
-#menu {
-	width: 550px;
-    height: 35px;
-    font-size: 16px;
-    text-align: center;
-    background-color: #000000;
-}
-
-#menu ul{
-	height:auto;
-	padding: 8px 0px;
-	margin: 0px;
-}
-
-#menu li{
-	display: inline;
-	padding: 20px;
-}
-
-#menu a{
-	text-decoration: none;
-	font-family: regulart;
-	font-weight: 100;
-	color: #F1BBBA;
-	padding: 8px 8px 8px 8px;
-}
-
-#menu a:hover{
-	color: #EB9F9F;
-}
-
-#menu nav{
-	display: table;
-	width: 100%;
-	border-collapse: collapse;
-	border: none;
-}
-
-html, body{
-	overflow-x: hidden;
-}
-
 .full{
 	margin: 0 -9999rem;
-	padding: 0.25rem;
-	background-color: #000000;
-}
-
-.container{
-	width: 100%;
-	background-color: #6B5344;
-	height: 50px;
-	text-align: center;
-	color: #F8ECC9;
-}
-.heading{
-	position: absolute;
-	top: 25%;
-	width: 500px;
-	left: 50%;
-	margin-left: -250px;
-}
-
-.name{
-	color: #F8ECC9;
-	font-size: 3.5em;
-	height: 35px;
-}
-
-.grey{
-	background-color: #A79C8E;
-}
-
-.beige{
-	color: #F8ECC9;
-}
-
-.lightpink{
-	color: #F1BBBA;
-}
-
-.darkpink{
-	color: #EB9F9F;
-}
-
-.brown{
-	background-color: #6B5344;
+	padding: 0.25rem 9999rem;
+	background-color: #000000; 
 }
