@@ -12,6 +12,7 @@ body{
 	font-family: regulart; 
 	background-color: #A79C8E;
 	overflow-x: hidden;
+
 }
 
 html{
@@ -45,8 +46,17 @@ a:hover{
 	color: #EB9F9F;
 }
 
+div{
+	display: block;
+}
+
 .full{
-	margin: 0 -9999rem;
-	padding: 0.25rem 9999rem;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	padding: 0px 0px 5px 0px;
+	margin: 0px;
 	background-color: #000000; 
 }
