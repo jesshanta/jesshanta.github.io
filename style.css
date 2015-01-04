@@ -46,7 +46,6 @@ a:hover{
     font-size: 16px;
     text-align: center;
     background-color: #000000;
-    border-radius: 8px;
 }
 
 #menu ul{
@@ -70,6 +69,13 @@ a:hover{
 
 #menu a:hover{
 	color: #EB9F9F;
+}
+
+#menu nav{
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
 }
 
 nav{
