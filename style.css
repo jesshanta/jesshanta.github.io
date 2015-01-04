@@ -63,14 +63,15 @@ div{
 }
 
 .full ul{
-	height:auto;
-	padding: 8px 0px;
+	height:21px;
+	padding: 15px 0px;
 	margin: 0px;
+	text-align: center;
 }
 
 .full li{
 	display: inline;
-	padding: 20px;
+	padding: 11px;
 }
 
 .full a{
@@ -79,7 +80,7 @@ div{
 	font-weight: 100;
 	color: #fff;
 	padding: 8px 8px 8px 8px;
-	font-size: 1.1em;
+	font-size: 1.5em;
 	text-align: center;
 }
 
