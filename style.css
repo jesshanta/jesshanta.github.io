@@ -99,11 +99,11 @@ div{
 #title h1{
 	color: #666666;
 	font-family: boldt;
-	font-size: 1.5em;
+	font-size: 2.0em;
 	text-align: center;
 }
 
-#name {
+#title h1#name {
 	color: #D3649F;
 	font-size: 3.5em;
 	height: 35px;
