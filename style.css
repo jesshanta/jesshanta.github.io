@@ -41,13 +41,12 @@ a:hover{
 }
 
 #menu {
-	position: fixed;
-  	right: 0;
-  	top: 50%;
-  	width: 8em;
-  	margin-top: -2.5em;
-  	background-color: #6B5344;
-  	color: #F8ECC9;
+	width: 550px;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 8px;
 }
 
 #menu ul{
@@ -59,6 +58,18 @@ a:hover{
 #menu li{
 	display: inline;
 	padding: 20px;
+}
+
+#menu a{
+	text-decoration: none;
+	font-family: regulart;
+	font-weight: 100;
+	color: #F1BBBA;
+	padding: 8px 8px 8px 8px;
+}
+
+#menu a:hover{
+	color: #EB9F9F;
 }
 
 nav{
