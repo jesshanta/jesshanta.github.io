@@ -104,10 +104,8 @@ div{
 
 #section{
 	position: absolute;
-	top: 25%;
 	width: 500px;
-	left: 50%;
-	margin-left: -250px;
+	left: 55%;
 }
 
 #section h1{
