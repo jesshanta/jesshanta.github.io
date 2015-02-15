@@ -96,10 +96,14 @@ div{
 	color: #A3A3A3;
 }
 
-.circular {
+.circular img{
 	width: 300px;
 	height: 300px;
-	border-radius: 150px;
+	-webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
 }
 
 #aside{
