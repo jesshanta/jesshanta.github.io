@@ -98,8 +98,8 @@ div{
 
 #aside{
 	width: 350px;
-	float: right;
-	padding: 10px;
+	float: left;
+	padding: 0px;
 }
 
 #section{
