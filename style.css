@@ -57,7 +57,7 @@ div{
 	position: relative;
 	top: 0px;
 	left: 0px;
-	padding: 30px 0px 30px 0px;
+	padding: 20px 0px 20px 0px;
 	margin: 0px;
 	background-color: #000000; 
 }
@@ -96,7 +96,13 @@ div{
 	color: #A3A3A3;
 }
 
-#title{
+#aside{
+	width: 350px;
+	float: right;
+	padding: 10px;
+}
+
+#section{
 	position: absolute;
 	top: 25%;
 	width: 500px;
@@ -104,14 +110,14 @@ div{
 	margin-left: -250px;
 }
 
-#title h1{
+#section h1{
 	color: #666666;
 	font-family: boldt;
 	font-size: 2.0em;
 	text-align: center;
 }
 
-#title h1#name {
+#section h1#name {
 	color: #D3649F;
 	font-size: 3.5em;
 	height: 35px;
