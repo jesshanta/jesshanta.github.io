@@ -109,7 +109,7 @@ div{
 #aside{
 	width: 350px;
 	float: left;
-	padding: 10px 0px 10px 60px;
+	padding: 10px 0px 20px 60px;
 }
 
 #section{
@@ -130,4 +130,13 @@ div{
 	color: #D3649F;
 	font-size: 3.5em;
 	height: 35px;
+}
+
+#footer{
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#000000;
 }
