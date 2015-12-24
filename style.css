@@ -108,7 +108,7 @@ div{
 
 #aside{
 	width: 350px;
-	float: left;
+	left: 20%;
 	padding: 10px 0px 20px 60px;
 }
 
