@@ -35,6 +35,10 @@ h2{
 	color: #FFFFFF;
 }
 
+p{
+	color: #FFFFFF;
+}
+
 a{
 	text-decoration: none;
 	font-family: regulart;
@@ -97,26 +101,33 @@ div{
 }
 
 .circular img{
-	width: 400px;
-	height: 400px;
-	-webkit-border-radius: 200px;
-    -moz-border-radius: 200px;
-    -ms-border-radius: 200px;
-    -o-border-radius: 200px;
-    border-radius: 200px;
+	max-width: 40%;
+    height: auto\2;
+    width: auto\9; /* ie8 */
+	-webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 #aside{
-	width: 350px;
-	left: 20%;
-	padding: 10px 0px 20px 60px;
+	width: 100%;
+	float: left;
+	padding: 20px 0px 20px 20px;
 }
 
 #section{
 	position: absolute;
 	width: 400px;
 	left: 50%;
-	padding: 55px 0px 0px 0px;
+	padding: 65px 0px 0px 0px;
 }
 
 #section h1{
@@ -139,4 +150,7 @@ div{
 	bottom:0;
 	left:0;
 	background:#000000;
+}
+.ftext {
+	padding: 15px 30px 50px 65%;
 }
