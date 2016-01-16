@@ -35,6 +35,13 @@ h2{
 	color: #FFFFFF;
 }
 
+h3{
+	font-family: boldt;
+	color: #D3649F;
+	font-size: 1.3em;
+	text-align: left
+}
+
 p{
 	color: #FFFFFF;
 }
@@ -157,6 +164,41 @@ img {
 	margin-top: 10px
 }
 
+.contact{
+	padding: 0px 0px 0px 15%;
+	width: 40%;
+	float: left;
+}
+
+.contact h1{
+	font-family: boldt;
+	color: #D3649F;
+	font-size: 2.0em;
+	text-align: left;
+}
+
+.contact p{
+	color: #666666;
+	text-align: left;
+	font-size: 1.1em;
+	margin-top: 10px
+}
+
+.contact a{
+	color: #666666;
+}
+
+.contact a:hover{
+	font-family: boldt;
+	color: #3d3d3d;
+}
+
+.pic{
+	padding: 15px 20% 0px 0px;
+	width: 220px;
+	float: right;
+}
+
 #section h1#name {
 	color: #D3649F;
 	font-size: 3.5em;
@@ -166,7 +208,7 @@ img {
 #footer{
 	width:100%;
 	height:60px;
-	position:relative;
+	position:absolute;
 	bottom:0;
 	left:0;
 	background:#000000;
