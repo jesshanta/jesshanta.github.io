@@ -91,7 +91,7 @@ div{
 	font-family: boldt;
 	font-weight: 100;
 	color: #fff;
-	padding: 8px 8px 8px 8px;
+	padding: 8px 30px 8px 30px;
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -137,6 +137,26 @@ img {
 	text-align: center;
 }
 
+
+.title{
+	padding: 0px 0px 0px 10%;
+	width: 80%;
+}
+
+.title h1{
+	font-family: boldt;
+	color: #D3649F;
+	font-size: 2.0em;
+	text-align: left
+}
+
+.title p{
+	color: #666666;
+	text-align: left;
+	font-size: 1.1em;
+	margin-top: 10px
+}
+
 #section h1#name {
 	color: #D3649F;
 	font-size: 3.5em;
@@ -145,11 +165,12 @@ img {
 
 #footer{
 	width:100%;
-	height:10%;
-	position:absolute;
+	height:60px;
+	position:relative;
 	bottom:0;
 	left:0;
 	background:#000000;
+	vertical-align: bottom;
 }
 .ftext {
 	padding: 15px 30px 50px 60px;
@@ -162,9 +183,10 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	float: left;
-	padding: 25px 0px 10px 10px;
+	padding: 15px 0px 10px 10px;
 }
 
 .panel{
 	padding: 0px 0px 0px 80%;
 }
+
