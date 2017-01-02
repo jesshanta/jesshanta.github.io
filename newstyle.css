@@ -1,0 +1,24 @@
+@font-face {
+	font-family: regulart;
+	src: url(Titillium-Regular.otf);
+}
+
+@font-face{
+	font-family: boldt;
+	src: url(Titillium-Bold.otf);
+}
+
+body{
+	font-family: regulart; 
+	margin: 0;
+	padding: 0;
+
+}
+
+#homepage,#workpage,#projectpage,#interestspage,#contactpage{
+	height: 1000px;
+}
+
+#nav{
+	height: 70px;
+}
