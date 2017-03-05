@@ -1,36 +1,147 @@
 <!DOCTYPE html>
 <html> 
 	<head>
-		<link rel = "icon" href="cat.png" />
+		<link rel = "icon" href="img/cat.png" />
 		<title>Jessica Hanta</title>
-		<link href ="style.css" rel="stylesheet" type="text/css" />
+		<link href ="css/timeline.css" rel="stylesheet" type="text/css" />
+		<link href ="css/newstyle.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+		<script type="text/javascript" src="js/scripts.js"></script>	
 	</head>
-	<body> 
-		<div class = "full">		
-			<ul>
-				<li><a class = "menu-button" href= "/index.html">Home</a></li>
-				<li><a class = "menu-button" href= "/about.html">About</a></li>
-				<li><a class = "menu-button" href= "/3A_Jessica_Hanta_Resume.pdf" target = "_blank">Resume</a></li>
-				<li><a class = "menu-button" href= "/contact.html">Contact</a></li>
-				<li><a class = "menu-button" href= "/new.html">New</a></li>
-			</ul>
-		</div>
-		<div id = "aside">
-			<div class ="circular"><img src = "profile.jpg" ></div>
-		</div>
-		<div id = "section">
-			<h1 id = "name"> Jessica Hanta </h1>
-			<h1>Software Engineering Student at the University of Waterloo</h1>
-		</div>
-
-			<div id="footer">
-				<div class = "icons">
-					<div class = "panel">
-					<a href ="https://twitter.com/jesshanta" target = "_blank"><img src = "Twitter.png"></a>
-					<a href ="https://ca.linkedin.com/in/jesshanta" target = "_blank" ><img src = "linkedin.png"></a>
-					<a href ="http://jesshanta.tumblr.com/" target = "_blank"><img src = "tumblr.png"></a>
-				</div>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Jessica Hanta</a>
+		    </div>
+		    <ul class="nav navbar-nav navbar-right">
+		      	<li><a href="#home">Home</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">About Me</a></li>	
+		    </ul>
+		  </div>
+		</nav>
+		<div id="homepage">
+			<a id="home" class="smooth"></a>
+			<div class="transbox">
+				<div class="text">
+					<h1>Jessica Hanta</h1>
+					<h2 id="t1">Software Engineer</h2>
+					<h2 id="t2">University of Waterloo</h2>
 				</div>
 			</div>
+		</div>
+
+		<div id="workpage">
+			<a id="work" class="smooth"></a>
+			<h1>Work Experience</h1>
+			<ul class="timeline">
+		        <li>
+		          <div class="timeline-badge"><img src="img/p1.png" class="circles"></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              
+		              <h4 class="timeline-title"><img src="img/veeva.png">Veeva Systems</h4>
+		            </div>
+		            <div class="timeline-body">
+		              <p>Product Manager</p>
+		            </div>
+		          </div>
+		        </li>
+		        <li class="timeline-inverted">
+		          	<div class="timeline-badge warning"><img src="img/p2.png" class="circles"></div>
+		          	<div class="timeline-panel" style="left:-10%;">
+		            <div class="timeline-heading">
+		              	<h4 class="timeline-title"><img src="img/microsoft.png">Microsoft</h4>
+		            </div>
+		            <div class="timeline-body">
+		              	<p>Software Development Engineer</p>
+		            </div>
+		          </div>
+		        </li>
+		        <li>
+		          <div class="timeline-badge"><img src="img/p3.png" class="circles"></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              
+		              <h4 class="timeline-title"><img src="img/waterloo.gif">University of Waterloo</h4>
+		            </div>
+		            <div class="timeline-body">
+		              <p>Teaching Assistant</p>
+		            </div>
+		          </div>
+		        </li>
+		        <li class="timeline-inverted">
+		          	<div class="timeline-badge warning"><img src="img/p4.png" class="circles"></div>
+		          	<div class="timeline-panel" style="left:-10%;">
+		            <div class="timeline-heading">
+		              	<h4 class="timeline-title"><img src="img/mabel.png">Mabel's Labels</h4>
+		            </div>
+		            <div class="timeline-body">
+		              	<p>Database Developer</p>
+		            </div>
+		          </div>
+		        </li>
+		        <li>
+		          <div class="timeline-badge"><img src="img/p5.png" class="circles"></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              
+		              <h4 class="timeline-title"><img src="img/ims.png">Intelligent Mechatronic Systems</h4>
+		            </div>
+		            <div class="timeline-body">
+		              <p>Software Developer</p>
+		            </div>
+		          </div>
+		        </li>
+		   	</ul>
+		</div>
+
+		<div id="projectpage">
+			<a id="projects" class="smooth"></a>
+			<h1>Projects</h1>
+			<p id="ptext">I have worked on various projects over the past years. They are a combination of iOS, Android, and web related side projects. I've developed a particular interest in iOS, so I've been experimenting with making apps. The following are the most recent projects I have worked on.</p>
+			<div class="container">
+				<div class="left"><img src="img/pill.png" class="projects"><h3 class="ptitle">Chemo Tracking App</h3>Developing an iOS and Android app to connect cancer patients with medical professionals</div>
+				<div class="center"><img src="img/things.png" class="projects"><h3 class="ptitle">3 Things</h3>A journaling web application that allows you to track 3 things you did well that day</div>
+				<div class="right"><img src="img/check.png" class="projects"><h3 class="ptitle">MedCheck</h3>An iOS and Android app that manages prescription reminders and refils</div>
+			</div>
+			<div class="container">
+				<div class="left"><img src="img/pic.png" class="projects"><h3 class="ptitle">Fotag</h3>An Android app for importing and sharing photos</div>
+				<div class="center"><img src="img/plus.png" class="projects"><h3 class="ptitle">Health++</h3>An iOS app that extended data from the iOS Health app</div>
+				<div class="right"><img src="img/card.png" class="projects"><h3 class="ptitle">Straights</h3>A Windows application for the card game straights</div>
+			</div>
+		</div>
+
+		<div id="workpage">
+			<a id="contact" class="smooth"></a>
+			<h1>About Me</h1>
+			<div>
+				<div class="pic">
+					<img src = "img/side.jpg">
+				</div>
+				<div class="atext">
+				<p id="atext">I'm currently in my 4th year of Software Engineering at the University of Waterloo. I am not your stereotypical Software Engineer. I have the same drive to figure out problems as most engineers do and I get the thrill of finally getting your program to work. However, I am a minority in the tech field and I have felt the consequences of that. For this reason, I am incredibly passionate about decreasing the gender gap in the tech field. It is important for girls to be encouraged to program from a young age so they can hopefully reach their full potential and not quit when they see they are one of the few women. I am heavily involved in outreach programs at the University of Waterloo to spark the coding interest in young girls. Diversity is important, and I want to be part of the change.<br><br>
+				I love coding and technology. I want to make a difference in the world, and I am fortunate to be in a field where that's actually possible. I'm mainly interested in Software in Education and Medicine. I want good education available to anyone in the world. Everyone should be able to learn if they want to. I believe that software can help a bunch of the issues in the Medical field, and I'd love to be a part of that. 
+				</p>
+				<div id="acontainer">
+					<a href ="https://github.com/jesshanta" target = "_blank"><img src="img/git.png" class="social-icon"></a>
+					<a href ="https://www.linkedin.com/in/jesshanta/" target = "_blank"><img src="img/linkedin.png" class="social-icon"></a>
+					<a href ="https://medium.com/@jessicahanta/" target = "_blank"><img src="img/blog.png" class="social-icon"></a>
+					<a href ="mailto:jesshanta@gmail.com" target = "_blank"><img src="img/mail.png" class="social-icon"></a>
+					<a href ="https://www.instagram.com/jesshanta/" target = "_blank"><img src="img/ig.png" class="social-icon"></a>
+					<a href ="https://www.facebook.com/jess.hanta" target = "_blank"><img src="img/fb.png" class="social-icon"></a>
+				</div>
+				</div>
+				
+
+			</div>
+			
+		</div>
+		
 	</body>
+
 </html>
